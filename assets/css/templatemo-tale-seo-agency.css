@@ -335,7 +335,7 @@ Header Style
 .header-area {
   position: absolute;
   background: rgb(214, 241, 192);
-  background: linear-gradient(90deg, rgb(177, 230, 167) 30%, rgb(0, 192, 96) 70%);
+  /* background: linear-gradient(90deg, rgb(163, 248, 184) 30%, rgb(15, 201, 86) 70%); */
   height: 110px;
   top: 57px;
   left: 0;
@@ -405,7 +405,7 @@ Header Style
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: #fff;
+  color: #180101;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -434,13 +434,13 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff;
+  color: #023802;
   opacity: 0.8;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff;
+  color: #0b4603;
   opacity: 0.8;
 }
 
@@ -453,7 +453,7 @@ Header Style
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #fff;
+  color: #034110;
   position: absolute;
   right: 30px;
   top: 45px;
@@ -467,7 +467,7 @@ Header Style
   position: absolute;
   width: 160px;
   border-radius: 0px 0px 5px 5px;
-  background-color: #eee;
+  background-color: #03610b;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
   top: 110px;
@@ -491,7 +491,7 @@ Header Style
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
   opacity: 1;
   display: block;
-  background: #eee;
+  background: #02580e;
   color: #2a2a2a!important;
   padding-left: 20px;
   height: 40px;
@@ -551,7 +551,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #03460c;
   display: block;
   position: absolute;
   width: 30px;
@@ -565,7 +565,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #03460c;
   display: block;
   position: absolute;
   width: 30px;
@@ -612,11 +612,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #03460c;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #fff;
+  background-color: #03460c;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -624,15 +624,15 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #03460c;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #fff;
+  background-color: #03460c;
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fff;
+  color: #03460c;
 }
 
 @media (max-width: 1200px) {
@@ -935,10 +935,11 @@ Services Style
 }
 
 .services .service-item {
-  border: 1px solid #f3d7ff;
+  border: 0px solid #f3d7ff;
   border-radius: 23px;
   padding: 30px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255,0.9);
+  
   margin-bottom: 30px;
   transition: all .4s;
 }
