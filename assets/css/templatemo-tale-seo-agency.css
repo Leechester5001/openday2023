@@ -935,10 +935,10 @@ Services Style
 }
 
 .services .service-item {
-  border: 0px solid #f3d7ff;
+  border: 0px solid #d4f8e0;
   border-radius: 23px;
   padding: 30px;
-  background-color: rgb(255, 255, 255,0.9);
+  background-color: rgb(216, 255, 216);
   
   margin-bottom: 30px;
   transition: all .4s;
@@ -958,7 +958,7 @@ Services Style
 }
 
 .services .service-item:hover h4 {
-  color: #83d475;
+  color: #137003;
 }
 
 /* 
@@ -1877,6 +1877,15 @@ body {
     right: auto;
     left: 50%;
     transform: translate(-23px, -23px);
+  }
+  .services::before {
+    content: url(../images/services-left.png);
+    top: 120px;
+    left: 100px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    z-index: -1;
   }
 }
 
