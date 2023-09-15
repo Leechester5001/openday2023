@@ -1,8 +1,6 @@
 /*
 
-TemplateMo 582 Tale SEO Agency
 
-https://templatemo.com/tm-582-tale-seo-agency
 
 */
 
@@ -100,7 +98,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #afafaf;
+  color: #2e2e2e;
 }
 
 img {
@@ -782,7 +780,7 @@ Header Style
 .pre-header .left-info ul li {
   margin-right: 15px;
   padding-right: 15px;
-  border-right: 1px solid #dfb6ff;
+  border-right: 1px solid #b6ffb6;
 }
 
 .pre-header .left-info ul li a {
@@ -795,7 +793,7 @@ Header Style
 }
 
 .pre-header ul li a {
-  color: #a586bc;
+  color: #88bc86;
   transition: all .4s;
 }
 
@@ -858,7 +856,7 @@ Banner Style
   margin: 30px 0px 20px 0px;
   width: 210px;
   height: 2px;
-  background-color: #decdfa;
+  background-color: #ecfacd;
 }
 
 .main-banner h4 {
