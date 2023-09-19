@@ -928,7 +928,7 @@ Services Style
   transform: scaleX(-1);
   position: absolute;
   width: 103px;
-  height: 464px;
+  height: 100px;
   z-index: -1;
 }
 
